@@ -1,0 +1,54 @@
+.hero-container {
+  /* background-color: rgb(159, 140, 140); */
+  height: 80vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 3rem;
+}
+.right-container {
+  background: url("../../public/hero.jpg");
+  background-position: center;
+}
+.left-container {
+  /* background-color: saddlebrown; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2rem;
+  justify-content: center;
+  gap: 3rem;
+  letter-spacing: 1.5px;
+}
+
+.left-container h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: orangered;
+}
+.left-container p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+  transition: 0, 4s ease;
+}
+
+button {
+  padding: 1rem 2.1rem;
+  border-radius: 20px;
+  background-color: orangered;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.buttonView {
+  background-color: white;
+}
+.buttonView :hover {
+  background-color: rgb(154, 110, 117);
+}
